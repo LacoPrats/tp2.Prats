@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@300;400;700&display=swap");
+
+:root {
+  --primary:#ff0000;
+}
+
+$tipografia1:"LATO", sans-serif;
+$tipografia2:"Raleway";
+
+#nav {
+  background-color: var(--primary);
+}
+
+#button, .btns {
+  background-color: var(--primary);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+body {
+  padding: 4rem;
+  margin: 3rem;
+  font-family: "Raleway";
+}
+
+h1, h3 {
+  font-family: $tipografia1;
+}
+
+p {
+  font-family: $tipografia2;
+  font-weight: 400;
+}
+
+.header_element {
+  font-size: 100px;
+}
+
+.header_element2 {
+  font-size: 20px;
+  width: 100%;
+}
+
+.imag1 {
+  width: 800px;
+  border-radius: 1.875rem;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.imagport {
+  width: 300px;
+}
+
+#carrouselimg {
+  height: 700px;
+  width: 100%;
+}
+
+footer {
+  background-color: #ff0505;
+  height: 15rem;
+  margin-top: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-top: 20rem;
+  margin-bottom: 15rem;
+}
+
+.imagpl1 {
+  width: 250px;
+  border-bottom-right-radius: 2.5rem;
+}
+
+.imagpl2 {
+  width: 250px;
+  border-bottom-left-radius: 2.5rem;
+}
+
+#container1, #container2 {
+  margin-top: 4rem;
+}
